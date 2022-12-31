@@ -136,21 +136,36 @@ nav ul li a {
 }
 
 @media only screen and (max-width: 460px ) {
+  .icons  {
+    /* background-color: lightblue; */
+    margin-top: 5px;
+  }
   span.songName {
-    font-size: small;
+    font-size: 11px;
+    padding-right: 66px;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    padding: 1px;
+    text-decoration: none;
   }
 }
 
-@media only screen and (max-width: 3000px ) {
+@media only screen and (max-width: 400px ) {
+  .fa-play-circle {
+    /* background-color: lightblue; */
+    margin-top: 5px;
+  }
   span.songName {
-    font-size: small;
+    font-size: 11px;
     padding-right: 66px;
   }
   span.timestamp{
     margin: 0px -68px;
   }
   span#masterSongName{
-    padding: 0px 26px;
+    font-size: 0px;
   }
   #myProgressBar{
     margin-top: 31px;
@@ -159,7 +174,15 @@ nav ul li a {
     /* background-color: lightblue; */
     margin-top: 5px;
   }
+  nav ul li a {
+    display: block;
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+  }
 }
+
+
 
 
 section h2{
