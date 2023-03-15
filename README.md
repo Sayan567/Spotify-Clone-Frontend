@@ -5,3 +5,4 @@ This project is a replica of the popular music streaming service, Spotify. It al
 
 This is only the Frontend part I use HTML, CSS, JavaScript
 
+#Live Site : https://spotifysc.netlify.app/
